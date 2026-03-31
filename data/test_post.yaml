@@ -1,0 +1,15 @@
+- name: 获取文章1
+  url: /posts/1
+  method: GET
+  assert:
+    id: 1
+    userId: 1
+    title: 存在
+
+- name: 获取文章2
+  url: /posts/2
+  method: GET
+  assert:
+    id: 2
+    userId: 1
+    body: 存在1

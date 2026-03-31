@@ -1,0 +1,21 @@
+# 批量接口测试用例
+- name: 获取文章1
+  url: /posts/1
+  method: GET
+  assert:
+    id: 1
+    userId: 1
+
+- name: 获取文章2
+  url: /posts/2
+  method: GET
+  assert:
+    id: 2
+    userId: 1
+
+- name: 获取文章3
+  url: /posts/3
+  method: GET
+  assert:
+    id: 3
+    userId: 1

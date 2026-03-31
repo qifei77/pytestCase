@@ -1,0 +1,325 @@
+2026-03-27 16:31:48,421 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts/1
+2026-03-27 16:31:48,422 - base_api.py - INFO - 请求方式：GET
+2026-03-27 16:31:48,422 - base_api.py - INFO - 请求参数：{'headers': {'Content-Type': 'application/json'}}
+2026-03-27 16:31:49,544 - base_api.py - INFO - 响应状态码：200
+2026-03-27 16:31:49,544 - base_api.py - INFO - 响应结果：{
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2026-03-27 16:31:49,546 - test_user.py - INFO - 用例执行成功
+2026-03-27 16:37:58,340 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts/1
+2026-03-27 16:37:58,340 - base_api.py - INFO - 请求方式：GET
+2026-03-27 16:37:58,341 - base_api.py - INFO - 请求参数：{'headers': {'Content-Type': 'application/json'}}
+2026-03-27 16:37:59,422 - base_api.py - INFO - 响应状态码：200
+2026-03-27 16:37:59,423 - base_api.py - INFO - 响应结果：{
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2026-03-27 16:40:30,264 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts/1
+2026-03-27 16:40:30,264 - base_api.py - INFO - 请求方式：GET
+2026-03-27 16:40:30,264 - base_api.py - INFO - 请求参数：{'headers': {'Content-Type': 'application/json'}}
+2026-03-27 16:40:31,418 - base_api.py - INFO - 响应状态码：200
+2026-03-27 16:40:31,418 - base_api.py - INFO - 响应结果：{
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2026-03-27 16:40:31,420 - test_user.py - ERROR - 用例执行失败
+2026-03-27 16:40:51,323 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts/1
+2026-03-27 16:40:51,324 - base_api.py - INFO - 请求方式：GET
+2026-03-27 16:40:51,324 - base_api.py - INFO - 请求参数：{'headers': {'Content-Type': 'application/json'}}
+2026-03-27 16:40:52,522 - base_api.py - INFO - 响应状态码：200
+2026-03-27 16:40:52,522 - base_api.py - INFO - 响应结果：{
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2026-03-27 16:40:52,524 - test_user.py - ERROR - 用例执行失败
+2026-03-27 16:49:09,147 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts/1
+2026-03-27 16:49:09,148 - base_api.py - INFO - 请求方式：GET
+2026-03-27 16:49:09,148 - base_api.py - INFO - 请求参数：{}
+2026-03-27 16:49:10,302 - base_api.py - INFO - 响应状态码：200
+2026-03-27 16:49:10,302 - base_api.py - INFO - 响应结果：{
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2026-03-27 16:49:10,302 - test_post.py - INFO - 用例【获取文章1】执行成功
+2026-03-27 16:49:10,313 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts/2
+2026-03-27 16:49:10,314 - base_api.py - INFO - 请求方式：GET
+2026-03-27 16:49:10,314 - base_api.py - INFO - 请求参数：{}
+2026-03-27 16:49:11,344 - base_api.py - INFO - 响应状态码：200
+2026-03-27 16:49:11,344 - base_api.py - INFO - 响应结果：{
+  "userId": 1,
+  "id": 2,
+  "title": "qui est esse",
+  "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+}
+2026-03-27 16:49:11,345 - test_post.py - INFO - 用例【获取文章2】执行成功
+2026-03-27 16:49:11,351 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts/3
+2026-03-27 16:49:11,351 - base_api.py - INFO - 请求方式：GET
+2026-03-27 16:49:11,352 - base_api.py - INFO - 请求参数：{}
+2026-03-27 16:49:12,379 - base_api.py - INFO - 响应状态码：200
+2026-03-27 16:49:12,379 - base_api.py - INFO - 响应结果：{
+  "userId": 1,
+  "id": 3,
+  "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+  "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+}
+2026-03-27 16:49:12,380 - test_post.py - INFO - 用例【获取文章3】执行成功
+2026-03-27 18:56:14,146 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts/1
+2026-03-27 18:56:14,146 - base_api.py - INFO - 请求方式：GET
+2026-03-27 18:56:14,147 - base_api.py - INFO - 请求参数：{}
+2026-03-27 18:56:15,401 - base_api.py - INFO - 响应状态码：200
+2026-03-27 18:56:15,402 - base_api.py - INFO - 响应结果：{
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2026-03-27 18:56:15,403 - test_post.py - INFO - 用例【获取文章1】执行成功
+2026-03-27 18:56:15,412 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts/2
+2026-03-27 18:56:15,412 - base_api.py - INFO - 请求方式：GET
+2026-03-27 18:56:15,412 - base_api.py - INFO - 请求参数：{}
+2026-03-27 18:56:16,474 - base_api.py - INFO - 响应状态码：200
+2026-03-27 18:56:16,475 - base_api.py - INFO - 响应结果：{
+  "userId": 1,
+  "id": 2,
+  "title": "qui est esse",
+  "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+}
+2026-03-27 18:56:16,475 - test_post.py - INFO - 用例【获取文章2】执行成功
+2026-03-27 18:56:16,492 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts/3
+2026-03-27 18:56:16,492 - base_api.py - INFO - 请求方式：GET
+2026-03-27 18:56:16,492 - base_api.py - INFO - 请求参数：{}
+2026-03-27 18:56:17,613 - base_api.py - INFO - 响应状态码：200
+2026-03-27 18:56:17,613 - base_api.py - INFO - 响应结果：{
+  "userId": 1,
+  "id": 3,
+  "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+  "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+}
+2026-03-27 18:56:17,614 - test_post.py - INFO - 用例【获取文章3】执行成功
+2026-03-27 18:58:52,985 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts
+2026-03-27 18:58:52,986 - base_api.py - INFO - 请求方式：POST
+2026-03-27 18:58:52,986 - base_api.py - INFO - 请求参数：{'json': {'title': '测试文章', 'body': '测试内容', 'userId': 1}}
+2026-03-27 18:58:54,154 - base_api.py - INFO - 响应状态码：201
+2026-03-27 18:58:54,155 - base_api.py - INFO - 响应结果：{
+  "title": "测试文章",
+  "body": "测试内容",
+  "userId": 1,
+  "id": 101
+}
+2026-03-27 18:58:54,156 - test_relation.py - INFO - 创建文章成功，id = 101
+2026-03-27 19:20:52,768 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts/1
+2026-03-27 19:20:52,768 - base_api.py - INFO - 请求方式：GET
+2026-03-27 19:20:52,769 - base_api.py - INFO - 请求参数：{}
+2026-03-27 19:20:53,875 - base_api.py - INFO - 响应状态码：200
+2026-03-27 19:20:53,875 - base_api.py - INFO - 响应结果：{
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2026-03-27 19:20:53,875 - assert_util.py - INFO - 实际返回结果：<Response [200]>
+2026-03-27 19:20:53,875 - assert_util.py - INFO - 期望返回结果：{'id': 1, 'userId': 1, 'title': '存在'}
+2026-03-27 19:20:54,173 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts/2
+2026-03-27 19:20:54,174 - base_api.py - INFO - 请求方式：GET
+2026-03-27 19:20:54,174 - base_api.py - INFO - 请求参数：{}
+2026-03-27 19:20:55,380 - base_api.py - INFO - 响应状态码：200
+2026-03-27 19:20:55,380 - base_api.py - INFO - 响应结果：{
+  "userId": 1,
+  "id": 2,
+  "title": "qui est esse",
+  "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+}
+2026-03-27 19:20:55,380 - assert_util.py - INFO - 实际返回结果：<Response [200]>
+2026-03-27 19:20:55,381 - assert_util.py - INFO - 期望返回结果：{'id': 2, 'userId': 1, 'body': '存在'}
+2026-03-27 19:23:09,238 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts/1
+2026-03-27 19:23:09,238 - base_api.py - INFO - 请求方式：GET
+2026-03-27 19:23:09,238 - base_api.py - INFO - 请求参数：{}
+2026-03-27 19:23:10,375 - base_api.py - INFO - 响应状态码：200
+2026-03-27 19:23:10,376 - base_api.py - INFO - 响应结果：{
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2026-03-27 19:23:10,376 - assert_util.py - INFO - 实际返回结果：<Response [200]>
+2026-03-27 19:23:10,376 - assert_util.py - INFO - 期望返回结果：{'id': 1, 'userId': 1, 'title': '存在'}
+2026-03-27 19:23:10,590 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts/2
+2026-03-27 19:23:10,590 - base_api.py - INFO - 请求方式：GET
+2026-03-27 19:23:10,591 - base_api.py - INFO - 请求参数：{}
+2026-03-27 19:23:11,773 - base_api.py - INFO - 响应状态码：200
+2026-03-27 19:23:11,773 - base_api.py - INFO - 响应结果：{
+  "userId": 1,
+  "id": 2,
+  "title": "qui est esse",
+  "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+}
+2026-03-27 19:23:11,774 - assert_util.py - INFO - 实际返回结果：<Response [200]>
+2026-03-27 19:23:11,774 - assert_util.py - INFO - 期望返回结果：{'id': 2, 'userId': 1, 'body': '存在'}
+2026-03-27 19:27:00,375 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts/1
+2026-03-27 19:27:00,375 - base_api.py - INFO - 请求方式：GET
+2026-03-27 19:27:00,375 - base_api.py - INFO - 请求参数：{}
+2026-03-27 19:27:01,507 - base_api.py - INFO - 响应状态码：200
+2026-03-27 19:27:01,507 - base_api.py - INFO - 响应结果：{
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2026-03-27 19:27:01,507 - assert_util.py - INFO - 实际返回结果：{'userId': 1, 'id': 1, 'title': 'sunt aut facere repellat provident occaecati excepturi optio reprehenderit', 'body': 'quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto'}
+2026-03-27 19:27:01,507 - assert_util.py - INFO - 期望返回结果：{'id': 1, 'userId': 1, 'title': '存在'}
+2026-03-27 19:27:01,507 - assert_util.py - INFO - title 存在，校验通过
+2026-03-27 19:27:01,508 - assert_util.py - INFO - 判断全部通过
+2026-03-27 19:27:01,516 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts/2
+2026-03-27 19:27:01,516 - base_api.py - INFO - 请求方式：GET
+2026-03-27 19:27:01,516 - base_api.py - INFO - 请求参数：{}
+2026-03-27 19:27:02,707 - base_api.py - INFO - 响应状态码：200
+2026-03-27 19:27:02,708 - base_api.py - INFO - 响应结果：{
+  "userId": 1,
+  "id": 2,
+  "title": "qui est esse",
+  "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+}
+2026-03-27 19:27:02,708 - assert_util.py - INFO - 实际返回结果：{'userId': 1, 'id': 2, 'title': 'qui est esse', 'body': 'est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla'}
+2026-03-27 19:27:02,708 - assert_util.py - INFO - 期望返回结果：{'id': 2, 'userId': 1, 'body': '存在'}
+2026-03-27 19:27:02,709 - assert_util.py - INFO - body 存在，校验通过
+2026-03-27 19:27:02,709 - assert_util.py - INFO - 判断全部通过
+2026-03-27 19:31:29,608 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts/1
+2026-03-27 19:31:29,609 - base_api.py - INFO - 请求方式：GET
+2026-03-27 19:31:29,609 - base_api.py - INFO - 请求参数：{}
+2026-03-27 19:31:30,787 - base_api.py - INFO - 响应状态码：200
+2026-03-27 19:31:30,787 - base_api.py - INFO - 响应结果：{
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2026-03-27 19:31:30,787 - assert_util.py - INFO - 实际返回结果：{'userId': 1, 'id': 1, 'title': 'sunt aut facere repellat provident occaecati excepturi optio reprehenderit', 'body': 'quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto'}
+2026-03-27 19:31:30,787 - assert_util.py - INFO - 期望返回结果：{'id': 1, 'userId': 1, 'title': '存在'}
+2026-03-27 19:31:30,988 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts/2
+2026-03-27 19:31:30,988 - base_api.py - INFO - 请求方式：GET
+2026-03-27 19:31:30,988 - base_api.py - INFO - 请求参数：{}
+2026-03-27 19:31:32,056 - base_api.py - INFO - 响应状态码：200
+2026-03-27 19:31:32,056 - base_api.py - INFO - 响应结果：{
+  "userId": 1,
+  "id": 2,
+  "title": "qui est esse",
+  "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+}
+2026-03-27 19:31:32,056 - assert_util.py - INFO - 实际返回结果：{'userId': 1, 'id': 2, 'title': 'qui est esse', 'body': 'est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla'}
+2026-03-27 19:31:32,056 - assert_util.py - INFO - 期望返回结果：{'id': 2, 'userId': 1, 'body': '存在'}
+2026-03-27 19:35:07,281 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts/1
+2026-03-27 19:35:07,281 - base_api.py - INFO - 请求方式：GET
+2026-03-27 19:35:07,281 - base_api.py - INFO - 请求参数：{}
+2026-03-27 19:35:08,368 - base_api.py - INFO - 响应状态码：200
+2026-03-27 19:35:08,368 - base_api.py - INFO - 响应结果：{
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2026-03-27 19:35:08,590 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts/2
+2026-03-27 19:35:08,590 - base_api.py - INFO - 请求方式：GET
+2026-03-27 19:35:08,590 - base_api.py - INFO - 请求参数：{}
+2026-03-27 19:35:09,659 - base_api.py - INFO - 响应状态码：200
+2026-03-27 19:35:09,659 - base_api.py - INFO - 响应结果：{
+  "userId": 1,
+  "id": 2,
+  "title": "qui est esse",
+  "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+}
+2026-03-27 19:35:32,581 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts/1
+2026-03-27 19:35:32,581 - base_api.py - INFO - 请求方式：GET
+2026-03-27 19:35:32,581 - base_api.py - INFO - 请求参数：{}
+2026-03-27 19:35:33,772 - base_api.py - INFO - 响应状态码：200
+2026-03-27 19:35:33,772 - base_api.py - INFO - 响应结果：{
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2026-03-27 19:35:34,071 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts/2
+2026-03-27 19:35:34,071 - base_api.py - INFO - 请求方式：GET
+2026-03-27 19:35:34,072 - base_api.py - INFO - 请求参数：{}
+2026-03-27 19:35:35,168 - base_api.py - INFO - 响应状态码：200
+2026-03-27 19:35:35,168 - base_api.py - INFO - 响应结果：{
+  "userId": 1,
+  "id": 2,
+  "title": "qui est esse",
+  "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+}
+2026-03-27 19:36:29,566 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts/1
+2026-03-27 19:36:29,566 - base_api.py - INFO - 请求方式：GET
+2026-03-27 19:36:29,566 - base_api.py - INFO - 请求参数：{}
+2026-03-27 19:36:30,722 - base_api.py - INFO - 响应状态码：200
+2026-03-27 19:36:30,722 - base_api.py - INFO - 响应结果：{
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2026-03-27 19:36:30,722 - assert_util.py - INFO - 实际返回结果：{'userId': 1, 'id': 1, 'title': 'sunt aut facere repellat provident occaecati excepturi optio reprehenderit', 'body': 'quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto'}
+2026-03-27 19:36:30,723 - assert_util.py - INFO - 期望返回结果：{'id': 1, 'userId': 1, 'title': '存在'}
+2026-03-27 19:36:30,723 - assert_util.py - INFO - title 存在，校验通过
+2026-03-27 19:36:30,723 - assert_util.py - INFO - 判断全部通过
+2026-03-27 19:36:30,729 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts/2
+2026-03-27 19:36:30,730 - base_api.py - INFO - 请求方式：GET
+2026-03-27 19:36:30,730 - base_api.py - INFO - 请求参数：{}
+2026-03-27 19:36:31,824 - base_api.py - INFO - 响应状态码：200
+2026-03-27 19:36:31,825 - base_api.py - INFO - 响应结果：{
+  "userId": 1,
+  "id": 2,
+  "title": "qui est esse",
+  "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+}
+2026-03-27 19:36:31,825 - assert_util.py - INFO - 实际返回结果：{'userId': 1, 'id': 2, 'title': 'qui est esse', 'body': 'est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla'}
+2026-03-27 19:36:31,825 - assert_util.py - INFO - 期望返回结果：{'id': 2, 'userId': 1, 'body': '存在'}
+2026-03-27 19:36:31,825 - assert_util.py - INFO - body 存在，校验通过
+2026-03-27 19:36:31,825 - assert_util.py - INFO - 判断全部通过
+2026-03-27 19:38:03,748 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts/2
+2026-03-27 19:38:03,749 - base_api.py - INFO - 请求方式：GET
+2026-03-27 19:38:03,749 - base_api.py - INFO - 请求方式：GET
+2026-03-27 19:38:03,749 - base_api.py - INFO - 请求参数：{}
+2026-03-27 19:38:03,749 - base_api.py - INFO - 请求参数：{}
+2026-03-27 19:38:05,085 - base_api.py - INFO - 响应状态码：200
+2026-03-27 19:38:05,085 - base_api.py - INFO - 响应结果：{
+  "userId": 1,
+  "id": 2,
+  "title": "qui est esse",
+  "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+}
+2026-03-27 19:38:05,085 - assert_util.py - INFO - 实际返回结果：{'userId': 1, 'id': 2, 'title': 'qui est esse', 'body': 'est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla'}
+2026-03-27 19:38:05,085 - assert_util.py - INFO - 期望返回结果：{'id': 2, 'userId': 1, 'body': '存在1'}
+2026-03-27 19:38:05,157 - base_api.py - INFO - 响应状态码：200
+2026-03-27 19:38:05,157 - base_api.py - INFO - 响应结果：{
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2026-03-27 19:38:05,158 - assert_util.py - INFO - 实际返回结果：{'userId': 1, 'id': 1, 'title': 'sunt aut facere repellat provident occaecati excepturi optio reprehenderit', 'body': 'quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto'}
+2026-03-27 19:38:05,158 - assert_util.py - INFO - 期望返回结果：{'id': 1, 'userId': 1, 'title': '存在'}
+2026-03-27 19:38:05,158 - assert_util.py - INFO - title 存在，校验通过
+2026-03-27 19:38:05,158 - assert_util.py - INFO - 判断全部通过
+2026-03-27 19:38:06,344 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts/2
+2026-03-27 19:38:06,344 - base_api.py - INFO - 请求方式：GET
+2026-03-27 19:38:06,344 - base_api.py - INFO - 请求参数：{}
+2026-03-27 19:38:07,518 - base_api.py - INFO - 响应状态码：200
+2026-03-27 19:38:07,518 - base_api.py - INFO - 响应结果：{
+  "userId": 1,
+  "id": 2,
+  "title": "qui est esse",
+  "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+}
+2026-03-27 19:38:07,519 - assert_util.py - INFO - 实际返回结果：{'userId': 1, 'id': 2, 'title': 'qui est esse', 'body': 'est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla'}
+2026-03-27 19:38:07,519 - assert_util.py - INFO - 期望返回结果：{'id': 2, 'userId': 1, 'body': '存在1'}

@@ -1,0 +1,16 @@
+env:
+  test: https://jsonplaceholder.typicode.com
+  uat: https://jsonplaceholder.typicode.com
+  prod: https://jsonplaceholder.typicode.com
+
+#当前使用环境
+current_env: test
+
+#全局请求头
+default_headers:
+    Content-Type: application/json
+
+#登录信息
+login:
+  username: test1
+  password: 123456

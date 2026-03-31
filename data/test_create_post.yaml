@@ -1,0 +1,9 @@
+name: 创建文章
+url: /posts
+method: POST
+json:
+  title: "test_${random_str}_${timestamp}"
+  body: "${random_str}_这是测试内容"
+  userId: 1
+assert:
+  title: 存在

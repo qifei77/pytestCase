@@ -1,0 +1,7 @@
+.pytest_cache/
+reports/
+logs/
+.venv/
+__pycache__/
+*.pyc
+config/*.local.yaml

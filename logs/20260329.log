@@ -1,0 +1,295 @@
+2026-03-29 13:15:22,195 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts/2
+2026-03-29 13:15:22,200 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts
+2026-03-29 13:15:22,205 - base_api.py - INFO - 请求方式：GET
+2026-03-29 13:15:22,214 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts/1
+2026-03-29 13:15:22,215 - base_api.py - INFO - 请求方式：POST
+2026-03-29 13:15:22,225 - base_api.py - INFO - 请求参数：{'json': {'title': 'test_${random_str}_${timestamp}', 'body': '测试内容', 'userId': 1}}
+2026-03-29 13:15:22,227 - base_api.py - INFO - 请求参数：{}
+2026-03-29 13:15:22,266 - base_api.py - INFO - 请求方式：GET
+2026-03-29 13:15:22,290 - base_api.py - INFO - 请求参数：{}
+2026-03-29 13:15:28,151 - base_api.py - INFO - 响应状态码：201
+2026-03-29 13:15:28,151 - base_api.py - INFO - 响应结果：{
+  "title": "test_${random_str}_${timestamp}",
+  "body": "测试内容",
+  "userId": 1,
+  "id": 101
+}
+2026-03-29 13:15:28,154 - test_relation.py - INFO - 创建文章成功，id = 101
+2026-03-29 13:15:29,422 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts
+2026-03-29 13:15:29,422 - base_api.py - INFO - 请求方式：POST
+2026-03-29 13:15:29,422 - base_api.py - INFO - 请求参数：{'json': {'title': 'test_${random_str}_${timestamp}', 'body': '测试内容', 'userId': 1}}
+2026-03-29 13:15:34,577 - base_api.py - ERROR - 请求异常：HTTPSConnectionPool(host='jsonplaceholder.typicode.com', port=443): Read timed out. (read timeout=10)
+2026-03-29 13:15:36,139 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts/1
+2026-03-29 13:15:36,140 - base_api.py - INFO - 请求方式：GET
+2026-03-29 13:15:36,140 - base_api.py - INFO - 请求参数：{}
+2026-03-29 13:15:38,217 - base_api.py - ERROR - 请求异常：HTTPSConnectionPool(host='jsonplaceholder.typicode.com', port=443): Read timed out. (read timeout=10)
+2026-03-29 13:15:39,748 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts/2
+2026-03-29 13:15:39,748 - base_api.py - INFO - 请求方式：GET
+2026-03-29 13:15:39,749 - base_api.py - INFO - 请求参数：{}
+2026-03-29 13:15:40,771 - base_api.py - ERROR - 请求异常：HTTPSConnectionPool(host='jsonplaceholder.typicode.com', port=443): Read timed out. (read timeout=10)
+2026-03-29 13:15:45,505 - base_api.py - INFO - 响应状态码：200
+2026-03-29 13:15:45,506 - base_api.py - INFO - 响应结果：{
+  "userId": 1,
+  "id": 2,
+  "title": "qui est esse",
+  "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+}
+2026-03-29 13:15:45,506 - assert_util.py - INFO - 实际返回结果：{'userId': 1, 'id': 2, 'title': 'qui est esse', 'body': 'est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla'}
+2026-03-29 13:15:45,507 - assert_util.py - INFO - 期望返回结果：{'id': 2, 'userId': 1, 'body': '存在1'}
+2026-03-29 13:15:46,552 - base_api.py - INFO - 响应状态码：200
+2026-03-29 13:15:46,552 - base_api.py - INFO - 响应结果：{
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2026-03-29 13:15:46,553 - assert_util.py - INFO - 实际返回结果：{'userId': 1, 'id': 1, 'title': 'sunt aut facere repellat provident occaecati excepturi optio reprehenderit', 'body': 'quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto'}
+2026-03-29 13:15:46,553 - assert_util.py - INFO - 期望返回结果：{'id': 1, 'userId': 1, 'title': '存在'}
+2026-03-29 13:15:46,553 - assert_util.py - INFO - title 存在，校验通过
+2026-03-29 13:15:46,553 - assert_util.py - INFO - 判断全部通过
+2026-03-29 13:19:55,815 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts
+2026-03-29 13:19:55,815 - base_api.py - INFO - 请求方式：POST
+2026-03-29 13:19:55,816 - base_api.py - INFO - 请求参数：{'json': {'title': 'test_${random_str}_${timestamp}', 'body': '测试内容', 'userId': 1}}
+2026-03-29 13:20:00,713 - base_api.py - INFO - 响应状态码：201
+2026-03-29 13:20:00,714 - base_api.py - INFO - 响应结果：{
+  "title": "test_${random_str}_${timestamp}",
+  "body": "测试内容",
+  "userId": 1,
+  "id": 101
+}
+2026-03-29 13:20:00,716 - test_relation.py - INFO - 创建文章成功，id = 101
+2026-03-29 13:20:01,906 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts
+2026-03-29 13:20:01,906 - base_api.py - INFO - 请求方式：POST
+2026-03-29 13:20:01,906 - base_api.py - INFO - 请求参数：{'json': {'title': 'test_${random_str}_${timestamp}', 'body': '测试内容', 'userId': 1}}
+2026-03-29 13:20:12,323 - base_api.py - INFO - 响应状态码：201
+2026-03-29 13:20:12,323 - base_api.py - INFO - 响应结果：{
+  "title": "test_${random_str}_${timestamp}",
+  "body": "测试内容",
+  "userId": 1,
+  "id": 101
+}
+2026-03-29 13:20:12,326 - test_relation.py - INFO - 创建文章成功，id = 101
+2026-03-29 13:21:45,148 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts
+2026-03-29 13:21:45,148 - base_api.py - INFO - 请求方式：POST
+2026-03-29 13:21:45,148 - base_api.py - INFO - 请求参数：{'json': {'title': '测试文章#"test_${random_str}_${timestamp}"', 'body': '测试内容', 'userId': 1}}
+2026-03-29 13:21:52,418 - base_api.py - INFO - 响应状态码：201
+2026-03-29 13:21:52,419 - base_api.py - INFO - 响应结果：{
+  "title": "测试文章#\"test_${random_str}_${timestamp}\"",
+  "body": "测试内容",
+  "userId": 1,
+  "id": 101
+}
+2026-03-29 13:21:52,423 - test_relation.py - INFO - 创建文章成功，id = 101
+2026-03-29 13:21:53,629 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts
+2026-03-29 13:21:53,629 - base_api.py - INFO - 请求方式：POST
+2026-03-29 13:21:53,629 - base_api.py - INFO - 请求参数：{'json': {'title': '测试文章#"test_${random_str}_${timestamp}"', 'body': '测试内容', 'userId': 1}}
+2026-03-29 13:21:58,899 - base_api.py - INFO - 响应状态码：201
+2026-03-29 13:21:58,899 - base_api.py - INFO - 响应结果：{
+  "title": "测试文章#\"test_${random_str}_${timestamp}\"",
+  "body": "测试内容",
+  "userId": 1,
+  "id": 101
+}
+2026-03-29 13:21:58,906 - test_relation.py - INFO - 创建文章成功，id = 101
+2026-03-29 13:22:39,345 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts
+2026-03-29 13:22:39,346 - base_api.py - INFO - 请求方式：POST
+2026-03-29 13:22:39,346 - base_api.py - INFO - 请求参数：{'json': {'title': '测试文章', 'body': '测试内容', 'userId': 1}}
+2026-03-29 13:22:47,999 - base_api.py - INFO - 响应状态码：201
+2026-03-29 13:22:47,999 - base_api.py - INFO - 响应结果：{
+  "title": "测试文章",
+  "body": "测试内容",
+  "userId": 1,
+  "id": 101
+}
+2026-03-29 13:22:48,001 - test_relation.py - INFO - 创建文章成功，id = 101
+2026-03-29 14:39:53,376 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts
+2026-03-29 14:39:53,376 - base_api.py - INFO - 请求方式：POST
+2026-03-29 14:39:53,376 - base_api.py - INFO - 请求参数：{'json': {'title': 'test_liffbbgw_1774766393', 'body': 'gymuaidp_这是测试内容', 'userId': 1}}
+2026-03-29 14:40:01,594 - base_api.py - INFO - 响应状态码：201
+2026-03-29 14:40:01,594 - base_api.py - INFO - 响应结果：{
+  "title": "test_liffbbgw_1774766393",
+  "body": "gymuaidp_这是测试内容",
+  "userId": 1,
+  "id": 101
+}
+2026-03-29 14:40:01,595 - assert_util.py - INFO - 实际返回结果：{'title': 'test_liffbbgw_1774766393', 'body': 'gymuaidp_这是测试内容', 'userId': 1, 'id': 101}
+2026-03-29 14:40:01,595 - assert_util.py - INFO - 期望返回结果：{'title': '存在'}
+2026-03-29 14:40:02,869 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts
+2026-03-29 14:40:02,870 - base_api.py - INFO - 请求方式：POST
+2026-03-29 14:40:02,870 - base_api.py - INFO - 请求参数：{'json': {'title': 'test_liffbbgw_1774766393', 'body': 'gymuaidp_这是测试内容', 'userId': 1}}
+2026-03-29 14:40:15,122 - base_api.py - ERROR - 请求异常：HTTPSConnectionPool(host='jsonplaceholder.typicode.com', port=443): Read timed out. (read timeout=10)
+2026-03-29 14:44:23,592 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts
+2026-03-29 14:44:23,592 - base_api.py - INFO - 请求方式：POST
+2026-03-29 14:44:23,593 - base_api.py - INFO - 请求参数：{'json': {'title': 'test_xctauysj_1774766663', 'body': 'bwicpnwg_这是测试内容', 'userId': 1}}
+2026-03-29 14:44:35,785 - base_api.py - ERROR - 请求异常：HTTPSConnectionPool(host='jsonplaceholder.typicode.com', port=443): Read timed out. (read timeout=10)
+2026-03-29 14:44:37,213 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts
+2026-03-29 14:44:37,213 - base_api.py - INFO - 请求方式：POST
+2026-03-29 14:44:37,214 - base_api.py - INFO - 请求参数：{'json': {'title': 'test_xctauysj_1774766663', 'body': 'bwicpnwg_这是测试内容', 'userId': 1}}
+2026-03-29 14:44:40,103 - base_api.py - INFO - 响应状态码：201
+2026-03-29 14:44:40,103 - base_api.py - INFO - 响应结果：{
+  "title": "test_xctauysj_1774766663",
+  "body": "bwicpnwg_这是测试内容",
+  "userId": 1,
+  "id": 101
+}
+2026-03-29 14:44:40,103 - assert_util.py - INFO - 实际返回结果：{'title': 'test_xctauysj_1774766663', 'body': 'bwicpnwg_这是测试内容', 'userId': 1, 'id': 101}
+2026-03-29 14:44:40,104 - assert_util.py - INFO - 期望返回结果：{'title': '存在'}
+2026-03-29 14:45:58,477 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts/1
+2026-03-29 14:45:58,477 - base_api.py - INFO - 请求方式：GET
+2026-03-29 14:45:58,477 - base_api.py - INFO - 请求参数：{}
+2026-03-29 14:46:07,924 - base_api.py - INFO - 响应状态码：200
+2026-03-29 14:46:07,924 - base_api.py - INFO - 响应结果：{
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2026-03-29 14:46:07,924 - assert_util.py - INFO - 实际返回结果：{'userId': 1, 'id': 1, 'title': 'sunt aut facere repellat provident occaecati excepturi optio reprehenderit', 'body': 'quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto'}
+2026-03-29 14:46:07,924 - assert_util.py - INFO - 期望返回结果：{'id': 1, 'userId': 1, 'title': '存在'}
+2026-03-29 14:46:07,925 - assert_util.py - INFO - title 存在，校验通过
+2026-03-29 14:46:07,925 - assert_util.py - INFO - 判断全部通过
+2026-03-29 14:46:07,932 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts/2
+2026-03-29 14:46:07,932 - base_api.py - INFO - 请求方式：GET
+2026-03-29 14:46:07,932 - base_api.py - INFO - 请求参数：{}
+2026-03-29 14:46:17,134 - base_api.py - INFO - 响应状态码：200
+2026-03-29 14:46:17,134 - base_api.py - INFO - 响应结果：{
+  "userId": 1,
+  "id": 2,
+  "title": "qui est esse",
+  "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+}
+2026-03-29 14:46:17,134 - assert_util.py - INFO - 实际返回结果：{'userId': 1, 'id': 2, 'title': 'qui est esse', 'body': 'est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla'}
+2026-03-29 14:46:17,135 - assert_util.py - INFO - 期望返回结果：{'id': 2, 'userId': 1, 'body': '存在1'}
+2026-03-29 14:46:18,385 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts/2
+2026-03-29 14:46:18,385 - base_api.py - INFO - 请求方式：GET
+2026-03-29 14:46:18,385 - base_api.py - INFO - 请求参数：{}
+2026-03-29 14:46:26,903 - base_api.py - INFO - 响应状态码：200
+2026-03-29 14:46:26,904 - base_api.py - INFO - 响应结果：{
+  "userId": 1,
+  "id": 2,
+  "title": "qui est esse",
+  "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+}
+2026-03-29 14:46:26,904 - assert_util.py - INFO - 实际返回结果：{'userId': 1, 'id': 2, 'title': 'qui est esse', 'body': 'est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla'}
+2026-03-29 14:46:26,904 - assert_util.py - INFO - 期望返回结果：{'id': 2, 'userId': 1, 'body': '存在1'}
+2026-03-29 14:46:51,536 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts
+2026-03-29 14:46:51,537 - base_api.py - INFO - 请求方式：POST
+2026-03-29 14:46:51,537 - base_api.py - INFO - 请求参数：{'json': {'title': 'test_xtjviiss_1774766811', 'body': 'sukglxpm_这是测试内容', 'userId': 1}}
+2026-03-29 14:46:54,193 - base_api.py - INFO - 响应状态码：201
+2026-03-29 14:46:54,193 - base_api.py - INFO - 响应结果：{
+  "title": "test_xtjviiss_1774766811",
+  "body": "sukglxpm_这是测试内容",
+  "userId": 1,
+  "id": 101
+}
+2026-03-29 14:46:54,193 - assert_util.py - INFO - 实际返回结果：{'title': 'test_xtjviiss_1774766811', 'body': 'sukglxpm_这是测试内容', 'userId': 1, 'id': 101}
+2026-03-29 14:46:54,193 - assert_util.py - INFO - 期望返回结果：{'title': '存在'}
+2026-03-29 14:46:55,376 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts
+2026-03-29 14:46:55,376 - base_api.py - INFO - 请求方式：POST
+2026-03-29 14:46:55,376 - base_api.py - INFO - 请求参数：{'json': {'title': 'test_xtjviiss_1774766811', 'body': 'sukglxpm_这是测试内容', 'userId': 1}}
+2026-03-29 14:46:58,340 - base_api.py - INFO - 响应状态码：201
+2026-03-29 14:46:58,340 - base_api.py - INFO - 响应结果：{
+  "title": "test_xtjviiss_1774766811",
+  "body": "sukglxpm_这是测试内容",
+  "userId": 1,
+  "id": 101
+}
+2026-03-29 14:46:58,341 - assert_util.py - INFO - 实际返回结果：{'title': 'test_xtjviiss_1774766811', 'body': 'sukglxpm_这是测试内容', 'userId': 1, 'id': 101}
+2026-03-29 14:46:58,341 - assert_util.py - INFO - 期望返回结果：{'title': '存在'}
+2026-03-29 14:48:25,396 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts
+2026-03-29 14:48:25,396 - base_api.py - INFO - 请求方式：POST
+2026-03-29 14:48:25,396 - base_api.py - INFO - 请求参数：{'json': {'title': 'test_mqkiejaq_1774766905', 'body': 'aucxjqmh_这是测试内容', 'userId': 1}}
+2026-03-29 14:48:30,471 - base_api.py - INFO - 响应状态码：201
+2026-03-29 14:48:30,471 - base_api.py - INFO - 响应结果：{
+  "title": "test_mqkiejaq_1774766905",
+  "body": "aucxjqmh_这是测试内容",
+  "userId": 1,
+  "id": 101
+}
+2026-03-29 14:48:30,472 - test_relation.py - INFO - 状态码：201
+2026-03-29 14:48:30,472 - assert_util.py - INFO - 实际返回结果：{'title': 'test_mqkiejaq_1774766905', 'body': 'aucxjqmh_这是测试内容', 'userId': 1, 'id': 101}
+2026-03-29 14:48:30,472 - assert_util.py - INFO - 期望返回结果：{'title': '存在'}
+2026-03-29 14:48:31,650 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts
+2026-03-29 14:48:31,650 - base_api.py - INFO - 请求方式：POST
+2026-03-29 14:48:31,650 - base_api.py - INFO - 请求参数：{'json': {'title': 'test_mqkiejaq_1774766905', 'body': 'aucxjqmh_这是测试内容', 'userId': 1}}
+2026-03-29 14:48:39,600 - base_api.py - INFO - 响应状态码：201
+2026-03-29 14:48:39,600 - base_api.py - INFO - 响应结果：{
+  "title": "test_mqkiejaq_1774766905",
+  "body": "aucxjqmh_这是测试内容",
+  "userId": 1,
+  "id": 101
+}
+2026-03-29 14:48:39,600 - test_relation.py - INFO - 状态码：201
+2026-03-29 14:48:39,600 - assert_util.py - INFO - 实际返回结果：{'title': 'test_mqkiejaq_1774766905', 'body': 'aucxjqmh_这是测试内容', 'userId': 1, 'id': 101}
+2026-03-29 14:48:39,600 - assert_util.py - INFO - 期望返回结果：{'title': '存在'}
+2026-03-29 14:50:43,014 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts
+2026-03-29 14:50:43,014 - base_api.py - INFO - 请求方式：POST
+2026-03-29 14:50:43,014 - base_api.py - INFO - 请求参数：{'json': {'title': 'test_yeykpgxf_1774767043', 'body': 'qwdiocao_这是测试内容', 'userId': 1}}
+2026-03-29 14:50:49,782 - base_api.py - INFO - 响应状态码：201
+2026-03-29 14:50:49,782 - base_api.py - INFO - 响应结果：{
+  "title": "test_yeykpgxf_1774767043",
+  "body": "qwdiocao_这是测试内容",
+  "userId": 1,
+  "id": 101
+}
+2026-03-29 14:50:49,782 - test_relation.py - INFO - 状态码：201
+2026-03-29 14:50:49,783 - assert_util.py - INFO - 实际返回结果：{'title': 'test_yeykpgxf_1774767043', 'body': 'qwdiocao_这是测试内容', 'userId': 1, 'id': 101}
+2026-03-29 14:50:49,783 - assert_util.py - INFO - 期望返回结果：{'title': '存在'}
+2026-03-29 14:50:50,982 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts
+2026-03-29 14:50:50,982 - base_api.py - INFO - 请求方式：POST
+2026-03-29 14:50:50,983 - base_api.py - INFO - 请求参数：{'json': {'title': 'test_yeykpgxf_1774767043', 'body': 'qwdiocao_这是测试内容', 'userId': 1}}
+2026-03-29 14:50:53,564 - base_api.py - INFO - 响应状态码：201
+2026-03-29 14:50:53,564 - base_api.py - INFO - 响应结果：{
+  "title": "test_yeykpgxf_1774767043",
+  "body": "qwdiocao_这是测试内容",
+  "userId": 1,
+  "id": 101
+}
+2026-03-29 14:50:53,564 - test_relation.py - INFO - 状态码：201
+2026-03-29 14:50:53,564 - assert_util.py - INFO - 实际返回结果：{'title': 'test_yeykpgxf_1774767043', 'body': 'qwdiocao_这是测试内容', 'userId': 1, 'id': 101}
+2026-03-29 14:50:53,565 - assert_util.py - INFO - 期望返回结果：{'title': '存在'}
+2026-03-29 14:53:00,423 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts
+2026-03-29 14:53:00,424 - base_api.py - INFO - 请求方式：POST
+2026-03-29 14:53:00,424 - base_api.py - INFO - 请求参数：{'json': {'title': 'test_trfrrgfw_1774767180', 'body': 'vzuotgrz_这是测试内容', 'userId': 1}}
+2026-03-29 14:53:13,335 - base_api.py - INFO - 响应状态码：201
+2026-03-29 14:53:13,335 - base_api.py - INFO - 响应结果：{
+  "title": "test_trfrrgfw_1774767180",
+  "body": "vzuotgrz_这是测试内容",
+  "userId": 1,
+  "id": 101
+}
+2026-03-29 14:53:13,335 - test_relation.py - INFO - 状态码：201
+2026-03-29 14:53:13,336 - assert_util.py - INFO - 实际返回结果：{'title': 'test_trfrrgfw_1774767180', 'body': 'vzuotgrz_这是测试内容', 'userId': 1, 'id': 101}
+2026-03-29 14:53:13,336 - assert_util.py - INFO - 期望返回结果：{'title': '存在'}
+2026-03-29 14:53:13,336 - assert_util.py - INFO - title 存在，校验通过
+2026-03-29 14:53:13,336 - assert_util.py - INFO - 判断全部通过
+2026-03-29 14:59:46,091 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts
+2026-03-29 14:59:46,091 - base_api.py - INFO - 请求方式：POST
+2026-03-29 14:59:46,091 - base_api.py - INFO - 请求参数：{'json': {'title': 'test_esmftxmq_1774767586', 'body': 'ufxfclmh_这是测试内容', 'userId': 1}}
+2026-03-29 14:59:48,625 - base_api.py - INFO - 响应状态码：201
+2026-03-29 14:59:48,625 - base_api.py - INFO - 响应结果：{
+  "title": "test_esmftxmq_1774767586",
+  "body": "ufxfclmh_这是测试内容",
+  "userId": 1,
+  "id": 101
+}
+2026-03-29 14:59:48,625 - test_relation.py - INFO - 状态码：201
+2026-03-29 14:59:48,625 - assert_util.py - INFO - 实际返回结果：{'title': 'test_esmftxmq_1774767586', 'body': 'ufxfclmh_这是测试内容', 'userId': 1, 'id': 101}
+2026-03-29 14:59:48,626 - assert_util.py - INFO - 期望返回结果：{'title': '存在'}
+2026-03-29 14:59:48,626 - assert_util.py - INFO - title 存在，校验通过
+2026-03-29 14:59:48,626 - assert_util.py - INFO - 判断全部通过
+2026-03-29 15:00:46,541 - base_api.py - INFO - 请求地址：https://jsonplaceholder.typicode.com/posts
+2026-03-29 15:00:46,541 - base_api.py - INFO - 请求方式：POST
+2026-03-29 15:00:46,541 - base_api.py - INFO - 请求参数：{'json': {'title': 'test_uhlxiapq_1774767646', 'body': 'mjgdtysp_这是测试内容', 'userId': 1}}
+2026-03-29 15:00:53,052 - base_api.py - INFO - 响应状态码：201
+2026-03-29 15:00:53,053 - base_api.py - INFO - 响应结果：{
+  "title": "test_uhlxiapq_1774767646",
+  "body": "mjgdtysp_这是测试内容",
+  "userId": 1,
+  "id": 101
+}
+2026-03-29 15:00:53,054 - test_relation.py - INFO - 状态码：201
+2026-03-29 15:00:53,055 - assert_util.py - INFO - 实际返回结果：{'title': 'test_uhlxiapq_1774767646', 'body': 'mjgdtysp_这是测试内容', 'userId': 1, 'id': 101}
+2026-03-29 15:00:53,055 - assert_util.py - INFO - 期望返回结果：{'title': '存在'}
+2026-03-29 15:00:53,055 - assert_util.py - INFO - title 存在，校验通过
+2026-03-29 15:00:53,056 - assert_util.py - INFO - 判断全部通过

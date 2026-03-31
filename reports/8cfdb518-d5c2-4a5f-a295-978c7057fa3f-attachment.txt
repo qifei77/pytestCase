@@ -1,0 +1,14 @@
+INFO     API_AUTO_TEST:base_api.py:24 请求地址：https://jsonplaceholder.typicode.com/posts/1
+INFO     API_AUTO_TEST:base_api.py:25 请求方式：GET
+INFO     API_AUTO_TEST:base_api.py:26 请求参数：{'headers': {'Content-Type': 'application/json'}}
+INFO     API_AUTO_TEST:base_api.py:31 响应状态码：200
+INFO     API_AUTO_TEST:base_api.py:32 响应结果：{
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+INFO     API_AUTO_TEST:assert_util.py:9 实际返回结果：{'userId': 1, 'id': 1, 'title': 'sunt aut facere repellat provident occaecati excepturi optio reprehenderit', 'body': 'quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto'}
+INFO     API_AUTO_TEST:assert_util.py:10 期望返回结果：{'id': 1, 'userId': 1, 'title': '存在'}
+INFO     API_AUTO_TEST:assert_util.py:19 title 存在，校验通过
+INFO     API_AUTO_TEST:assert_util.py:26 判断全部通过

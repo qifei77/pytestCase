@@ -1,0 +1,4 @@
+INFO     API_AUTO_TEST:base_api.py:24 请求地址：https://jsonplaceholder.typicode.com/posts/2
+INFO     API_AUTO_TEST:base_api.py:25 请求方式：GET
+INFO     API_AUTO_TEST:base_api.py:26 请求参数：{'headers': {'Content-Type': 'application/json'}}
+ERROR    API_AUTO_TEST:base_api.py:36 请求异常：HTTPSConnectionPool(host='jsonplaceholder.typicode.com', port=443): Read timed out. (read timeout=10)
